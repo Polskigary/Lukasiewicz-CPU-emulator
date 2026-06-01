@@ -1,0 +1,16 @@
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+bin/
+build/
+out/
+dist/
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
