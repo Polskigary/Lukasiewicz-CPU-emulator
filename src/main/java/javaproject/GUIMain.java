@@ -620,7 +620,10 @@ public class GUIMain extends Application {
     TextArea txtInst = createConsoleArea("#58a6ff", "#010409");
     txtInst.setText(
         "=== COMPLETE INSTRUCTION SET ===\n\n" +
-            "IMPORTANT: to set a breakpoint just put a * before code\n\n" +
+            "IMPORTANT ARCHITECTURE INFORMATION:\n" +
+            "RAM ORIGIN  : Use '[address]' to set the mapping location in memory.\n" +
+            "BREAKPOINTS : Prefix an instruction with '*' to set a breakpoint.\n\n"+
+
             "1. ARITHMETIC & LOGIC (Sets Status & Overflow flags):\n" +
             "   ADD Rd Rs   : Rd = Rd + Rs\n" +
             "   SUB Rd Rs   : Rd = Rd - Rs\n" +
